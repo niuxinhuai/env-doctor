@@ -1,0 +1,16 @@
+{
+  "checks": [
+    {
+      "name": "Node.js",
+      "command": "node -v",
+      "minVersion": "18.0.0",
+      "fix": "Install Node.js 18 or newer."
+    },
+    {
+      "name": "Git",
+      "command": "git --version",
+      "minVersion": "2.30.0",
+      "fix": "Install a modern Git version."
+    }
+  ]
+}

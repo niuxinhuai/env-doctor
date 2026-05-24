@@ -1,0 +1,22 @@
+{
+  "name": "env-doctor",
+  "version": "0.1.0",
+  "description": "Project environment diagnostics from a simple JSON config.",
+  "type": "module",
+  "bin": {
+    "env-doctor": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node src/cli.js --help"
+  },
+  "keywords": [
+    "cli",
+    "developer-tools",
+    "open-source"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
