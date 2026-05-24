@@ -7,15 +7,29 @@
     "env-doctor": "./src/cli.js"
   },
   "scripts": {
-    "test": "node src/cli.js --help"
+    "test": "node test/run-tests.js"
   },
   "keywords": [
     "cli",
     "developer-tools",
     "open-source"
   ],
-  "author": "",
+  "author": "niuxinhuai",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niuxinhuai/env-doctor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/niuxinhuai/env-doctor/issues"
+  },
+  "homepage": "https://github.com/niuxinhuai/env-doctor#readme",
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE",
+    "env-doctor.config.json"
+  ],
   "engines": {
     "node": ">=18"
   }

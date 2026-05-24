@@ -25,12 +25,35 @@ env-doctor --help
 Create env-doctor.config.json with checks for your project toolchain.
 
 ```bash
-env-doctor\nenv-doctor --json\nenv-doctor --config env-doctor.config.json
+env-doctor
+env-doctor --json
+env-doctor --config env-doctor.config.json
+```
+
+Example config:
+
+```json
+{
+  "checks": [
+    {
+      "name": "Node.js",
+      "command": "node -v",
+      "minVersion": "18.0.0",
+      "fix": "Install Node.js 18 or newer."
+    }
+  ]
+}
 ```
 
 ### Status
 
 This is an MVP designed to be useful immediately and easy to extend. It has no runtime dependencies and targets Node.js 18+.
+
+### Test
+
+```bash
+npm test
+```
 
 ## 中文
 
@@ -53,12 +76,35 @@ env-doctor --help
 创建 env-doctor.config.json，配置项目需要的工具链检查项。
 
 ```bash
-env-doctor\nenv-doctor --json\nenv-doctor --config env-doctor.config.json
+env-doctor
+env-doctor --json
+env-doctor --config env-doctor.config.json
+```
+
+配置示例：
+
+```json
+{
+  "checks": [
+    {
+      "name": "Node.js",
+      "command": "node -v",
+      "minVersion": "18.0.0",
+      "fix": "Install Node.js 18 or newer."
+    }
+  ]
+}
 ```
 
 ### 当前状态
 
 这是一个可以直接使用的 MVP，重点是小、清晰、容易二次开发。运行时无第三方依赖，要求 Node.js 18+。
+
+### 测试
+
+```bash
+npm test
+```
 
 ## License
 
