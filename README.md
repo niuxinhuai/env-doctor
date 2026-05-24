@@ -1,5 +1,7 @@
 # env-doctor
 
+[![CI](https://github.com/niuxinhuai/env-doctor/actions/workflows/ci.yml/badge.svg)](https://github.com/niuxinhuai/env-doctor/actions/workflows/ci.yml)
+
 Diagnose a project development environment with explicit commands, minimum versions, and fix hints.
 
 用一份简单配置诊断项目开发环境，包含命令检查、最低版本和修复建议。
